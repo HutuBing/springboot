@@ -1,0 +1,10 @@
+spring:
+  redis:
+    database: 0
+
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
