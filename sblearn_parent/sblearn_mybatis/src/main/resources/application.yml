@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8
+    username: mybatis
+    password: mybatis123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  type-aliases-package: com.sblearn.mybatis.model

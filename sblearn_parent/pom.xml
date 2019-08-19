@@ -11,6 +11,7 @@
     <modules>
         <module>sblearn_redis</module>
         <module>sblearn_jpa</module>
+        <module>sblearn_mybatis</module>
     </modules>
 
     <parent>
@@ -19,5 +20,15 @@
         <version>2.1.7.RELEASE</version>
         <relativePath></relativePath>
     </parent>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>

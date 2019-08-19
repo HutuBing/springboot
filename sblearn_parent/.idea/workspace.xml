@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/SbJpaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/test/java/com/sblearn/jpa/TestJpa.java" afterDir="false" />
+    <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="redis">
+      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/java/com/sblearn/mybatis/SbMybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_redis/src/test/java/com/sblearn/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/test/java/com/sblearn/redis/TestRedis.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +45,7 @@
   </component>
   <component name="ProjectId" id="1PcuPglUYVrKcOfctB5yfuUZ9cF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566187538973</updated>
-      <workItem from="1566187540186" duration="19552000" />
+      <workItem from="1566187540186" duration="21359000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -141,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566199533738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redis">
+      <created>1566209636930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566209636930</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
