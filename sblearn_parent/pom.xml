@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sblearn_redis</module>
+        <module>sblearn_jpa</module>
     </modules>
 
     <parent>

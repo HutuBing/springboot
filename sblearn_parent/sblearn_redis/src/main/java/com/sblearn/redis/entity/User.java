@@ -1,4 +1,4 @@
-package com.sblearn.redis;
+package com.sblearn.redis.entity;
 
 import lombok.Data;
 

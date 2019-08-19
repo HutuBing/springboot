@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/SbRedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_redis/src/test/java/com/sblearn/redis/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/SbJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/java/com/sblearn/jpa/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_jpa/src/test/java/com/sblearn/jpa/TestJpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/java/com/sblearn/redis/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_redis/src/test/java/com/sblearn/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/test/java/com/sblearn/redis/TestRedis.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,6 +65,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sblearn.jpa.entity" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -72,12 +82,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestJpa.testUser">
+    <configuration name="TestJpa.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sblearn.jpa" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.jpa.TestJpa" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRedis.testObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sblearn_redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sblearn.redis.*" />
+          <option name="PATTERN" value="com.sblearn.redis.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJpa.testUser" />
         <item itemvalue="JUnit.TestRedis.testObj" />
       </list>
     </recent_temporary>
@@ -105,8 +132,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566187538973</updated>
-      <workItem from="1566187540186" duration="11853000" />
+      <workItem from="1566187540186" duration="19552000" />
     </task>
+    <task id="LOCAL-00001" summary="redis">
+      <created>1566199533738</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566199533738</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
 </project>
