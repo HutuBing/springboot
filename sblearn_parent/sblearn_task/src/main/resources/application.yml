@@ -1,12 +1,12 @@
 spring:
   jpa:
-    show-sql: true
+    database: mysql
     hibernate:
       ddl-auto: update
-    database: mysql
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
   datasource:
-    url: jdbc:mysql://119.23.54.62:3306/jpa?characterEncoding=utf-8
-    username: jpa
-    password: jpa123
+    url: jdbc:mysql://localhost:3306/task?characterEncoding=utf-8
+    username: task
+    password: task123
     driver-class-name: com.mysql.cj.jdbc.Driver

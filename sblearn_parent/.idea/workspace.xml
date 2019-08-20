@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/java/com/sblearn/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/java/com/sblearn/mybatis/model/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/test/java/com/sblearn/mybatis/TestMybatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/sblearn_rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/RabbitmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/receiver/HelloReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/receiver/HelloReceiver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/sender/HelloSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/test/java/com/sblearn/rabbitmq/TestRabbitmq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/TaskApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/entity/CronEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/repository/CronRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/task/DynamicScheduleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,6 +52,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -88,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRabbitmq.testSend">
+  <component name="RunManager" selected="Spring Boot.TaskApplication">
     <configuration name="TestJpa.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sblearn_jpa" />
       <extension name="coverage">
@@ -153,8 +151,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sblearn.task.TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TaskApplication" />
         <item itemvalue="JUnit.TestRabbitmq.testSend" />
         <item itemvalue="JUnit.TestRedis.testObj" />
         <item itemvalue="JUnit.TestMybatis.testInsert" />
@@ -173,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566187538973</updated>
       <workItem from="1566187540186" duration="21359000" />
-      <workItem from="1566261502820" duration="12076000" />
+      <workItem from="1566261502820" duration="18831000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -189,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566209636930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rabbitmq">
+      <created>1566287884485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566287884485</updated>
+    </task>
+    <task id="LOCAL-00004" summary="redis">
+      <created>1566288333187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566288333187</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +236,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="rabbitmq" />
     <MESSAGE value="redis" />
     <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>

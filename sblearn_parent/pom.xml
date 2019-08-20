@@ -13,6 +13,7 @@
         <module>sblearn_jpa</module>
         <module>sblearn_mybatis</module>
         <module>sblearn_rabbitmq</module>
+        <module>sblearn_task</module>
     </modules>
 
     <parent>
