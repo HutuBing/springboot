@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/java/com/sblearn/mybatis/SbMybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/java/com/sblearn/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/main/java/com/sblearn/mybatis/model/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mybatis/src/test/java/com/sblearn/mybatis/TestMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/sblearn_rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/RabbitmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/receiver/HelloReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/receiver/HelloReceiver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/java/com/sblearn/rabbitmq/sender/HelloSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/test/java/com/sblearn/rabbitmq/TestRabbitmq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,6 +69,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sblearn.rabbitmq" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sblearn.jpa.entity" />
     </key>
@@ -77,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestJpa.testUser">
+  <component name="RunManager" selected="JUnit.TestRabbitmq.testSend">
     <configuration name="TestJpa.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sblearn_jpa" />
       <extension name="coverage">
@@ -89,6 +100,38 @@
       <option name="PACKAGE_NAME" value="com.sblearn.jpa" />
       <option name="MAIN_CLASS_NAME" value="com.sblearn.jpa.TestJpa" />
       <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sblearn.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mybatis.TestMybatis" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRabbitmq.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sblearn.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.rabbitmq.TestRabbitmq" />
+      <option name="METHOD_NAME" value="testSend" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,8 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestJpa.testUser" />
+        <item itemvalue="JUnit.TestRabbitmq.testSend" />
         <item itemvalue="JUnit.TestRedis.testObj" />
+        <item itemvalue="JUnit.TestMybatis.testInsert" />
+        <item itemvalue="JUnit.TestJpa.testUser" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566187538973</updated>
       <workItem from="1566187540186" duration="21359000" />
+      <workItem from="1566261502820" duration="12076000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -154,7 +200,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
