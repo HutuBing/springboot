@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sblearn_mybatis" />
         <module name="sblearn_task" />
-        <module name="sblearn_rabbitmq" />
-        <module name="sblearn_jpa" />
         <module name="sblearn_redis" />
+        <module name="sblearn_mongodb" />
+        <module name="sblearn_jpa" />
+        <module name="sblearn_rabbitmq" />
+        <module name="sblearn_mail" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +22,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sblearn_jpa" options="-parameters" />
+      <module name="sblearn_mail" options="-parameters" />
+      <module name="sblearn_mongodb" options="-parameters" />
       <module name="sblearn_mybatis" options="-parameters" />
       <module name="sblearn_rabbitmq" options="-parameters" />
       <module name="sblearn_redis" options="-parameters" />

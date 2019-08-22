@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/sblearn_task/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/TaskApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/entity/CronEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/repository/CronRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/java/com/sblearn/task/task/DynamicScheduleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="mail mongodb">
+      <change afterPath="$PROJECT_DIR$/sblearn_mail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/java/com/sblearn/mail/SbMailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/java/com/sblearn/mail/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/java/com/sblearn/mail/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/test/java/com/sblearn/mail/MailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/SbMongodbApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/test/java/com/sblearn/mongodb/MongodbTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,91 +93,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TaskApplication">
-    <configuration name="TestJpa.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_jpa" />
+  <component name="RunManager" selected="JUnit.MongodbTest.findUserByUserName">
+    <configuration name="MailTest.testMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mail" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sblearn.jpa.*" />
+          <option name="PATTERN" value="com.sblearn.mail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.jpa" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.jpa.TestJpa" />
-      <option name="METHOD_NAME" value="testUser" />
+      <option name="PACKAGE_NAME" value="com.sblearn.mail" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mail.MailTest" />
+      <option name="METHOD_NAME" value="testMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatis.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_mybatis" />
+    <configuration name="MongodbTest.deleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mongodb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sblearn.mybatis.*" />
+          <option name="PATTERN" value="com.sblearn.mongodb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.mybatis.TestMybatis" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
+      <option name="METHOD_NAME" value="deleteUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRabbitmq.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_rabbitmq" />
+    <configuration name="MongodbTest.findUserByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mongodb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sblearn.rabbitmq.*" />
+          <option name="PATTERN" value="com.sblearn.mongodb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.rabbitmq.TestRabbitmq" />
-      <option name="METHOD_NAME" value="testSend" />
+      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
+      <option name="METHOD_NAME" value="findUserByUserName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedis.testObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_redis" />
+    <configuration name="MongodbTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mongodb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sblearn.redis.entity.*" />
+          <option name="PATTERN" value="com.sblearn.mongodb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.redis.TestRedis" />
-      <option name="METHOD_NAME" value="testObj" />
+      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
+      <option name="METHOD_NAME" value="testSaveUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_task" />
+    <configuration name="MongodbTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mongodb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sblearn.task.*" />
+          <option name="PATTERN" value="com.sblearn.mongodb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sblearn.task.TaskApplication" />
+      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TaskApplication" />
-        <item itemvalue="JUnit.TestRabbitmq.testSend" />
-        <item itemvalue="JUnit.TestRedis.testObj" />
-        <item itemvalue="JUnit.TestMybatis.testInsert" />
-        <item itemvalue="JUnit.TestJpa.testUser" />
+        <item itemvalue="JUnit.MongodbTest.findUserByUserName" />
+        <item itemvalue="JUnit.MongodbTest.deleteUserById" />
+        <item itemvalue="JUnit.MongodbTest.updateUser" />
+        <item itemvalue="JUnit.MongodbTest.testSaveUser" />
+        <item itemvalue="JUnit.MailTest.testMail" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566187538973</updated>
       <workItem from="1566187540186" duration="21359000" />
-      <workItem from="1566261502820" duration="18831000" />
+      <workItem from="1566261502820" duration="31280000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -215,11 +225,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566288333187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="定时任务">
+      <created>1566296055926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566296055926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -238,6 +265,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="定时任务" />
+    <option name="LAST_COMMIT_MESSAGE" value="定时任务" />
   </component>
 </project>

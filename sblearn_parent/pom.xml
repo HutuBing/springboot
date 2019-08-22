@@ -14,6 +14,8 @@
         <module>sblearn_mybatis</module>
         <module>sblearn_rabbitmq</module>
         <module>sblearn_task</module>
+        <module>sblearn_mail</module>
+        <module>sblearn_mongodb</module>
     </modules>
 
     <parent>
