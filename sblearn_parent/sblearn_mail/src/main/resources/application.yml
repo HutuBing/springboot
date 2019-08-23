@@ -1,9 +1,9 @@
 spring:
   mail:
     host: smtp.qq.com
-    username: xxxxxx@qq.com
-    password: xxxxxx
+    username: xxxx@qq.com
+    password: hpdgqiqfjxckhjci
     default-encoding: UTF-8
 mail:
   fromMail:
-    addr: xxxxxx@qq.com
+    addr: xxxx@qq.com

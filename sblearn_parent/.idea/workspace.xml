@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="mail mongodb">
-      <change afterPath="$PROJECT_DIR$/sblearn_mail/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/java/com/sblearn/mail/SbMailApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/java/com/sblearn/mail/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/java/com/sblearn/mail/service/impl/MailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mail/src/test/java/com/sblearn/mail/MailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/SbMongodbApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/java/com/sblearn/mongodb/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_mongodb/src/test/java/com/sblearn/mongodb/MongodbTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_mail/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_mail/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_mail/src/test/java/com/sblearn/mail/MailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_mail/src/test/java/com/sblearn/mail/MailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_rabbitmq/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" afterDir="false" />
@@ -93,7 +79,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MongodbTest.findUserByUserName">
+  <component name="RunManager" selected="JUnit.MailTest.sendAttachmentsMail">
+    <configuration name="MailTest.sendAttachmentsMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sblearn.mail" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mail.MailTest" />
+      <option name="METHOD_NAME" value="sendAttachmentsMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailTest.testHtmlMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sblearn.mail" />
+      <option name="MAIN_CLASS_NAME" value="com.sblearn.mail.MailTest" />
+      <option name="METHOD_NAME" value="testHtmlMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MailTest.testMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sblearn_mail" />
       <extension name="coverage">
@@ -142,45 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongodbTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_mongodb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sblearn.mongodb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
-      <option name="METHOD_NAME" value="testSaveUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MongodbTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_mongodb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sblearn.mongodb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
-      <option name="METHOD_NAME" value="updateUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MailTest.sendAttachmentsMail" />
+        <item itemvalue="JUnit.MailTest.testHtmlMail" />
+        <item itemvalue="JUnit.MailTest.testMail" />
         <item itemvalue="JUnit.MongodbTest.findUserByUserName" />
         <item itemvalue="JUnit.MongodbTest.deleteUserById" />
-        <item itemvalue="JUnit.MongodbTest.updateUser" />
-        <item itemvalue="JUnit.MongodbTest.testSaveUser" />
-        <item itemvalue="JUnit.MailTest.testMail" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566187538973</updated>
       <workItem from="1566187540186" duration="21359000" />
-      <workItem from="1566261502820" duration="31280000" />
+      <workItem from="1566261502820" duration="33108000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -232,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566296055926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mail mongodb">
+      <created>1566455638392</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566455638392</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +259,7 @@
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="redis" />
     <MESSAGE value="定时任务" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务" />
+    <MESSAGE value="mail mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="mail mongodb" />
   </component>
 </project>

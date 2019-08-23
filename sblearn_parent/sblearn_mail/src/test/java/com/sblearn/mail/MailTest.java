@@ -36,7 +36,7 @@ public class MailTest {
 
     @Test
     public void sendAttachmentsMail() {
-        String filePath="C:\\Users\\win10\\Desktop\\周报\\佛山统一平台周报20190814_廖坚槟";
+        String filePath="C:\\Users\\win10\\Desktop\\周报\\.xlsx";
         mailService.sendAttachmentsMail("1161086097@qq.com", "主题：带附件的邮件", "有附件，请查收！", filePath);
     }
 
