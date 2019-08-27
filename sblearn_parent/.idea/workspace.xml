@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="mail mongodb">
-      <change afterPath="$PROJECT_DIR$/sblearn_admin_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_admin_server/src/main/java/com/sblearn/admin/AdminServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_admin_server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_admin_server/target/classes/META-INF/sblearn_admin_server.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_admin_server/target/classes/com/sblearn/admin/AdminServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="spring boot admin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_jpa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_task/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_task/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_admin_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_admin_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sblearn_admin_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sblearn_admin_server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,9 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SbRedisApplication" />
         <item itemvalue="Spring Boot.TaskApplication" />
         <item itemvalue="Spring Boot.AdminServerApplication" />
+        <item itemvalue="Spring Boot.SbRedisApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.ActuatorApplication" />
       </list>
@@ -184,7 +173,7 @@
       <updated>1566187538973</updated>
       <workItem from="1566187540186" duration="21359000" />
       <workItem from="1566261502820" duration="33108000" />
-      <workItem from="1566872825619" duration="5651000" />
+      <workItem from="1566872825619" duration="8598000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -242,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566876638706</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="spring boot admin">
+      <created>1566878541817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566878541817</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +275,7 @@
     <MESSAGE value="mail mongodb" />
     <MESSAGE value="uploadTest" />
     <MESSAGE value="actuator" />
-    <option name="LAST_COMMIT_MESSAGE" value="actuator" />
+    <MESSAGE value="spring boot admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot admin" />
   </component>
 </project>

@@ -1,2 +1,15 @@
 server:
   port: 8000
+spring:
+  application:
+    name: admin-server
+  mail:
+    host: smtp.qq.com
+    username: test@qq.com
+    password:
+  boot:
+    admin:
+      notify:
+        mail:
+          to: test@qq.com
+          from: test@qq.com
