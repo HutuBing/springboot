@@ -17,6 +17,7 @@
         <module>sblearn_mail</module>
         <module>sblearn_mongodb</module>
         <module>sblearn_upload</module>
+        <module>sblearn_actuator</module>
     </modules>
 
     <parent>

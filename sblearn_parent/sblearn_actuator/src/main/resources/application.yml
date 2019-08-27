@@ -1,0 +1,14 @@
+info:
+  app:
+    name: sblearn-actuator
+    version: 1.0.0
+    test: test
+management:
+  endpoints:
+    web:
+      exposure:
+        include: heapdump,mappings,threaddump
+    health:
+      show-details: always
+    shutdown:
+      enabled: true

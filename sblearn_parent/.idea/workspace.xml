@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c42f36-db28-44e6-9448-806c0573ed94" name="Default Changelist" comment="mail mongodb">
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/src/main/java/com/sblearn/upload/UploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/src/main/java/com/sblearn/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/src/main/resources/templates/from_file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/src/main/resources/templates/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sblearn_upload/src/main/resources/templates/uploadStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_actuator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_actuator/src/main/java/com/sblearn/actuator/ActuatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sblearn_actuator/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -25,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UploadApplication">
+  <component name="RunManager" selected="Spring Boot.ActuatorApplication">
     <configuration name="MailTest.sendAttachmentsMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sblearn_mail" />
       <extension name="coverage">
@@ -136,22 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongodbTest.findUserByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sblearn_mongodb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sblearn.mongodb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sblearn.mongodb" />
-      <option name="MAIN_CLASS_NAME" value="com.sblearn.mongodb.MongodbTest" />
-      <option name="METHOD_NAME" value="findUserByUserName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRedis.testObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sblearn_redis" />
       <extension name="coverage">
@@ -168,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActuatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sblearn_actuator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sblearn.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sblearn.actuator.ActuatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sblearn_upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sblearn.upload.UploadApplication" />
@@ -177,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ActuatorApplication" />
         <item itemvalue="JUnit.TestRedis.testObj" />
         <item itemvalue="JUnit.MailTest.sendAttachmentsMail" />
         <item itemvalue="JUnit.MailTest.testHtmlMail" />
         <item itemvalue="JUnit.MailTest.testMail" />
-        <item itemvalue="JUnit.MongodbTest.findUserByUserName" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +190,7 @@
       <updated>1566187538973</updated>
       <workItem from="1566187540186" duration="21359000" />
       <workItem from="1566261502820" duration="33108000" />
-      <workItem from="1566872825619" duration="1542000" />
+      <workItem from="1566872825619" duration="3682000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1566199533738</created>
@@ -241,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566455638392</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="uploadTest">
+      <created>1566874581100</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566874581100</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +276,7 @@
     <MESSAGE value="redis" />
     <MESSAGE value="定时任务" />
     <MESSAGE value="mail mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="mail mongodb" />
+    <MESSAGE value="uploadTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploadTest" />
   </component>
 </project>

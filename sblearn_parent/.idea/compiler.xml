@@ -10,6 +10,7 @@
         <module name="sblearn_task" />
         <module name="sblearn_redis" />
         <module name="sblearn_mongodb" />
+        <module name="sblearn_actuator" />
         <module name="sblearn_jpa" />
         <module name="sblearn_upload" />
         <module name="sblearn_rabbitmq" />
@@ -22,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sblearn_actuator" options="-parameters" />
       <module name="sblearn_jpa" options="-parameters" />
       <module name="sblearn_mail" options="-parameters" />
       <module name="sblearn_mongodb" options="-parameters" />
