@@ -6,7 +6,7 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
   datasource:
-    url: jdbc:mysql://119.23.54.62:3306/jpa?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/jpa?characterEncoding=utf-8
     username: jpa
     password: jpa123
     driver-class-name: com.mysql.cj.jdbc.Driver

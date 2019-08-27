@@ -10,3 +10,16 @@ spring:
     username: task
     password: task123
     driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: sblearn-task
+  boot:
+    admin:
+      client:
+        url: http://localhost:8000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: trace,beans,health,info,headdump,threaddump
+server:
+  port: 8001

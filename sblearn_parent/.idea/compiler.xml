@@ -15,6 +15,7 @@
         <module name="sblearn_upload" />
         <module name="sblearn_rabbitmq" />
         <module name="sblearn_mail" />
+        <module name="sblearn_admin_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sblearn_actuator" options="-parameters" />
+      <module name="sblearn_admin_server" options="-parameters" />
       <module name="sblearn_jpa" options="-parameters" />
       <module name="sblearn_mail" options="-parameters" />
       <module name="sblearn_mongodb" options="-parameters" />

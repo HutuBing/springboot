@@ -18,6 +18,7 @@
         <module>sblearn_mongodb</module>
         <module>sblearn_upload</module>
         <module>sblearn_actuator</module>
+        <module>sblearn_admin_server</module>
     </modules>
 
     <parent>
